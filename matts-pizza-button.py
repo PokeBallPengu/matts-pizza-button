@@ -4,9 +4,9 @@ from random import randint
 
 def pizzaMe():
 	if randint(0, 9) == 0:
-		webopen('dominoes.com')
+		webopen('https://www.amazon.com/treadmill-home-treadmill/b?ie=UTF8&node=3407831)
 	else:
-		webopen('dominoes.com')
+		webopen('https://www.dominos.com/en/pages/order/menu#!/menu/category/viewall/')
 
 root = tkinter.Tk()
 root.geometry('255x255')
