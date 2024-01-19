@@ -4,8 +4,8 @@ We utilize sustainable technology, spatial computing, and machine customers to i
 
 ## Installation
 ### Linux
-''' bash
+``` bash
 sudo git clone https://github.com/PokeBallPengu/matts-pizza-button.git
 cd matts-pizza-button
 pip install -r requirements.txt
-'''
+```
