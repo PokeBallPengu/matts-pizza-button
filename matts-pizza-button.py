@@ -4,7 +4,7 @@ from random import randint
 
 def pizzaMe():
 	if randint(0, 9) == 0:
-		webopen('https://www.amazon.com/treadmill-home-treadmill/b?ie=UTF8&node=3407831)
+		webopen('https://www.amazon.com/treadmill-home-treadmill/b?ie=UTF8&node=3407831')
 	else:
 		webopen('https://www.dominos.com/en/pages/order/menu#!/menu/category/viewall/')
 
