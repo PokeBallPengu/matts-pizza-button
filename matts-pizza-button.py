@@ -9,7 +9,7 @@ def pizzaMe():
 		webopen('https://www.dominos.com/en/pages/order/menu#!/menu/category/viewall/')
 
 root = tkinter.Tk()
-root.geometry('255x255')
+root.geometry('290x290')
 root.title("Matt's Pizza Button")
 
 root.resizable(height=0, width=0)
