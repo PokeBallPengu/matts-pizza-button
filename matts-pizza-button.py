@@ -4,8 +4,6 @@ from random import randint
 from threading import Thread
 import speech_recognition as sr
 
-
-
 def pizzaMe():
 	if randint(0, 9) == 0:
 		webopen('https://www.amazon.com/treadmill-home-treadmill/b?ie=UTF8&node=3407831')
@@ -24,7 +22,6 @@ def listenForPizza():
 				if text.lower() == "pizza":
 					pizzaMe()
 		except Exception as e:
-			print('fuck', e)
 			r = sr.Recognizer()
 			continue
 
