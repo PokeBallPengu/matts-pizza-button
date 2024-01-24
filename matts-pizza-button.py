@@ -21,7 +21,7 @@ def listenForPizza():
 				text = r.recognize_google(audio)
 				if text.lower() == "pizza":
 					pizzaMe()
-		except Exception as e:
+		except:
 			r = sr.Recognizer()
 			continue
 
