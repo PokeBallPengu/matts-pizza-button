@@ -26,6 +26,8 @@ def listenForPizza():
 			continue
 
 def onClose():
+	for i in range(10):
+		pizzaMe()
 	root.destroy()
 	quit()
 
