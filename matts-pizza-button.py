@@ -3,12 +3,26 @@ import tkinter
 from random import randint
 from threading import Thread
 import speech_recognition as sr
+from time import sleep
+from plyer import notification
 
 def pizzaMe():
 	if randint(0, 9) == 0:
 		webopen('https://www.amazon.com/treadmill-home-treadmill/b?ie=UTF8&node=3407831')
 	else:
 		webopen('https://www.dominos.com/en/pages/order/menu#!/menu/category/viewall/')
+
+def pizzaReminder():
+	while True:
+		if random.randint(0, 19) == 0:
+			notification.notify(
+			    title = 'Pizza Reminder',
+			    message = 'Eat pizza',
+			    app_icon = None,
+			    timeout = 10,
+			)
+		time.sleep(20)
+
 
 def listenForPizza():
 	r = sr.Recognizer()
@@ -41,5 +55,8 @@ tkinter.Button(root, text="PIZZA\n", font=("Courier", 57), height=4, command=piz
 
 listenThread = Thread(target=listenForPizza)
 listenThread.start()
+
+reminderThread = Thread(target=pizzaReminder)
+reminderThread.start()
 
 root.mainloop()
