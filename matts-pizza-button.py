@@ -14,7 +14,7 @@ def pizzaMe():
 
 def pizzaReminder():
 	while True:
-		if random.randint(0, 19) == 0:
+		if randint(0, 19) == 0:
 			notification.notify(
 			    title = 'Pizza Reminder',
 			    message = 'Eat pizza',
