@@ -6,7 +6,7 @@ We utilize sustainable technology, spatial computing, and machine customers to i
   -  Clean GUI for easy reclamation of culinary creations
   -  Voice recognition to allow reclamation without getting grease on your mouse
   -  Random desktop pizza reminders
-  -  
+    
 ## Building An Executable With PyInstaller
 ```bash
 pyinstaller --onefile --windowed --icon=images/icon.ico matts-pizza-button.py
