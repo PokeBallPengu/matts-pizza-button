@@ -21,7 +21,7 @@ def pizzaReminder():
 			    app_icon = None,
 			    timeout = 10,
 			)
-		time.sleep(20)
+		sleep(20)
 
 
 def listenForPizza():
