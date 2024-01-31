@@ -59,6 +59,7 @@ root = tkinter.Tk()
 root.geometry('290x290')
 root.title("Matt's Pizza Button")
 root.protocol("WM_DELETE_WINDOW", onClose)
+root.iconbitmap("images/icon.ico")
 
 root.resizable(height=0, width=0)
 tkinter.Button(root, text="PIZZA\n", font=("Courier", 57), height=4, command=pizzaMe, bg='brown4', overrelief='groove', borderwidth=0, activebackground='brown4').grid()
