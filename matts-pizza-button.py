@@ -24,7 +24,7 @@ def sendReminder(remTitle, remMessage):
 
 def pizzaReminder():
     while True:
-        if randint(0, 19) == 0:
+        if randint(0, 9) == 0:
             sendReminder('Pizza Reminder', 'Eat Pizza')
         sleep(20)
 
