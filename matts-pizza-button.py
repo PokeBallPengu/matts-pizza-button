@@ -16,7 +16,7 @@ def sendReminder(remTitle, remMessage):
     notification.notify(
                 title = remTitle,
                 message = remMessage,
-                app_icon = None,
+                app_icon = 'images/icon.ico',
                 timeout = 20,
             )
 
