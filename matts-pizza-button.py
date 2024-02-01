@@ -32,7 +32,7 @@ def pizzaJokeReminder():
         if randint(0, 14) == 0:
             jokePick = randint(0, len(pizzaJokes) - 1)
             sendReminder(pizzaJokes[jokePick][0], pizzaJokes[jokePick][1])
-            sleep(10)
+            sleep(20)
 
 def listenForPizza():
     r = sr.Recognizer()
