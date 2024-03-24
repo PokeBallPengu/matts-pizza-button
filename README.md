@@ -10,5 +10,5 @@ We utilize sustainable technology, spatial computing, and machine customers to i
     
 ## Building An Executable With PyInstaller
 ```bash
-pyinstaller --onefile --windowed --icon=images/icon.ico matts-pizza-button.py
+pyinstaller --onefile --noconsole --icon=images/icon.ico matts-pizza-button.py
 ```
